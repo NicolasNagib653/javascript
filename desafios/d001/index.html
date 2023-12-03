@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <div id="display">
+            <output id="numeros">0</output>
+        </div>
+        <table>
+            <tbody>
+                <tr>
+                    <td><button>&#40;</button></td>
+                    <td><button>&#41;</button></td>
+                    <td><button>%</button></td>
+                    <td><button>AC</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="add1() " oninput="numeros.innerHTML = Number(+1)">1</button></td>
+                    <td><button onclick="add2()">2</button></td>
+                    <td><button onclick="add3()">3</button></td>
+                    <td><button style="font-size: 1.4em;">÷</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="add4()">4</button></td>
+                    <td><button onclick="add5()">5</button></td>
+                    <td><button onclick="add6()">6</button></td>
+                    <td><button>X</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="add7()">7</button></td>
+                    <td><button onclick="add8()">8</button></td>
+                    <td><button onclick="add9()">9</button></td>
+                    <td><button style="font-size: 1.5em;">-</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="add0()">0</button></td>
+                    <td><button style="font-size: 1.5em;">.</button></td>
+                    <td><button id="igual" style="font-size: 1.5em;">=</button></td>
+                    <td><button style="font-size: 1.5em;">+</button></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </main>
+
+    <script src="js/calculadora.js"></script>
+</body>
+</html>

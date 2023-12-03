@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'calculator';
+    src: url("../fontes/Calculator.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+main{
+    padding: 5px 10px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(65, 65, 65);
+}
+
+#display{
+    width: 100%;
+    text-align: end;
+    margin: 10px 5px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(145 157 83);
+    font-family: 'calculator';
+    font-size: 35px;
+}
+
+main table{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+tbody{
+    width: 100%;
+}
+
+tr{
+    width: 100%;
+}
+
+
+button{
+    margin: 5px 2px;
+    width: 9vw;
+    height: 36px;
+    font-size: 1em;
+    border: 0;
+    color: white;
+    background-color: black;
+}
+
+#igual{
+    background-color: #0080ff;
+    color: white;
+    border: 0;
+}
