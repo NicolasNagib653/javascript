@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora do dia</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .manha{
+            background-color: rgb(252, 235, 159);
+        }
+        .tarde{
+            background-color: rgb(255, 196, 87);
+        }
+        .noite{
+            background-color: rgb(32, 32, 32);
+        }
+        h1{
+            color: white;
+        }
+        #res{
+            display: flex;
+            justify-content: center;
+            background-color: white;
+            border-radius: 20px;
+            padding: 20px;
+            text-align: center;
+            width: 60vw;
+            height: 40vh;
+            
+        }
+        .manha #img{
+            background-image: url('img/manha.jpg');
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+            align-self: center;
+        }
+        .tarde #img{
+            background-image: url("img/tarde.jpg");
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;          
+            align-self: center;
+        }
+        .noite #img{
+            position: absolute;
+            background: center center url("img/noite.jpg");
+            background-size: cover;
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+            align-self: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Hora do dia</h1>
+    <div id="res">
+       
+    </div>
+
+    <script>
+        var res  = document.getElementById('res')
+        var hora = new Date().getHours()
+
+        res.innerHTML += `Agora são ${hora} horas`
+        
+        if (hora < 12){
+            document.body.classList = 'manha'
+            res.innerHTML += '<div id="img"></div>'
+        } else
+        if(hora < 18){
+            document.body.classList = 'tarde'
+            res.innerHTML += '<div id="img"></div>'
+        } else{
+            document.body.classList = 'noite'
+            res.innerHTML += '<div id="img"></div>'
+        }
+    </script>
+</body>
+</html>

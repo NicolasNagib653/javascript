@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual seu pais?</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Descubra aqui se você é estrangeiro</h1>
+    Digite seu país de origem:<input type="text" id="pais">
+    <input type="button" value="Enviar" onclick="calcular()">
+    <div id="res"></div>
+    <script>
+        function calcular(){
+        var pais = document.getElementById('pais')
+        var res = document.getElementById('res')
+        res.innerHTML = `<p>Seu país de origem é ${pais.value}</p>`
+
+        if(pais.value == 'brasil'){
+            res.innerHTML += 'Você é brasileiro'
+        } else{
+            res.innerHTML += 'Você é estrangeiro'
+        }
+        }
+    </script>
+</body>
+</html>
