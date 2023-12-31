@@ -2,6 +2,8 @@
 var numeros = document.getElementById("numeros")
 var soma1 = 0
 var n1, sub1, divi1,porcen1,multi1   = 0
+var i = 0
+var f = 0
 function add1(){
     if(numeros.value == 0){
         numeros.innerHTML =  1
@@ -151,35 +153,52 @@ function parentD(){
 }
 
 function igual(){
-    if(soma1 == 1){
-        let str = String(numeros.value)
-        let n2 = str.split("+")
-        numeros.innerHTML = Number(n1) + Number(n2[1])
-    }else
-    if(sub1 == 2){
-        let str = String(numeros.value)
-        let n2 = str.split("-")
-        numeros.innerHTML = Number(n1) - Number(n2[1])
-    }else
-    if(multi1 == 3){
-        let str = String(numeros.value)
-        let n2  = str.split("X")
-        numeros.innerHTML = Number(n1) * Number(n2[1])
-    }
-    if(divi1 == 4){
-        let str = String(numeros.value)
-        let n2  = str.split("÷")
-        numeros.innerHTML = Number(n1) / Number(n2[1])
-    }
-    if(porcen1 == 5){
-        let str = String(numeros.value)
-        let n2  = str.split("%")
-        console.log(n2)
-        if(n2[1] == ""){
-            numeros.innerHTML = parseFloat(n1) / 100
-        } else{
-        numeros.innerHTML = parseFloat(n1) * parseFloat(n2[1]) / 100
-        }
-    }
+    // if(soma1 == 1){
+    //     let str = String(numeros.value)
+    //     let n2 = str.split("+")
+    //     numeros.innerHTML = Number(n1) + Number(n2[1])
+    // }else
+    // if(sub1 == 2){
+    //     let str = String(numeros.value)
+    //     let n2 = str.split("-")
+    //     numeros.innerHTML = Number(n1) - Number(n2[1])
+    // }else
+    // if(multi1 == 3){
+    //     let str = String(numeros.value)
+    //     let n2  = str.split("X")
+    //     numeros.innerHTML = Number(n1) * Number(n2[1])
+    // }
+    // if(divi1 == 4){
+    //     let str = String(numeros.value)
+    //     let n2  = str.split("÷")
+    //     numeros.innerHTML = Number(n1) / Number(n2[1])
+    // }
+    // if(porcen1 == 5){
+    //     let str = String(numeros.value)
+    //     let n2  = str.split("%")
+    //     console.log(n2)
+    //     if(n2[1] == ""){
+    //         numeros.innerHTML = parseFloat(n1) / 100
+    //     } else{
+    //     numeros.innerHTML = parseFloat(n1) * parseFloat(n2[1]) / 100
+    //     }
+    // }
 
+
+    while(i < String(numeros.value).length){
+        if(numeros.value[i] == "X"){
+            
+            let str = String(numeros.value)
+            let n2  = str.split("X")
+
+            console.log("foi")
+            while(f < n2){
+                numeros.innerHTML = Number(n1[f - 1]) * Number(n2[f + 1])
+            }
+            i++
+        }
+        i++
+    }
+   
+   
 }
