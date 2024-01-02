@@ -37,6 +37,10 @@ main{
     font-size: 35px;
 }
 
+#numeros{
+    display: none;
+}
+
 main table{
     display: flex;
     flex-wrap: wrap;

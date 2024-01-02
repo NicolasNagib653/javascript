@@ -9,6 +9,7 @@
 <body>
     <main>
         <div id="display">
+            <output id="display1">0</output>
             <output id="numeros">0</output>
         </div>
         <table>
@@ -20,10 +21,10 @@
                     <td><button onclick="limpar()">AC</button></td>
                 </tr>
                 <tr>
-                    <td><button onclick="add1() " oninput="numeros.innerHTML = Number(+1)">1</button></td>
-                    <td><button onclick="add2()">2</button></td>
-                    <td><button onclick="add3()">3</button></td>
-                    <td><button onclick="divi()" style="font-size: 1.4em;">÷</button></td>
+                    <td><button onclick="form1.answer.value += '1'">1</button></td>
+                    <td><button onclick="form1.answer.value += '2' ">2</button></td>
+                    <td><button onclick="form1.answer.value += '3' ">3</button></td>
+                    <td><button onclick="form1.answer.value += '/' " style="font-size: 1.4em;">÷</button></td>
                 </tr>
                 <tr>
                     <td><button onclick="add4()">4</button></td>
