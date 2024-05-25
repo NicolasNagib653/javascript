@@ -5,6 +5,6 @@
 
 <ul>
  <li>Exercicio 01: Hello word<br> 
- <a href="aula04/ex001.html">acesse aqui</a>
+ <a href="exercicios/aula04/ex001.html">acesse aqui</a>
  </li>
 </ul>
