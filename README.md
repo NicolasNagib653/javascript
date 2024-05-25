@@ -49,3 +49,30 @@
    <a href="exercicios/aula11/ex011.html">acesse aqui</a>
   </li>
 </ul>
+
+<h3>Desafios:</h3>
+<ul>
+  <li>
+   desafio 01: Hora do dia<br>
+   <a href="desafios/d002/pt01">minha versão</a>
+   <a href="desafios/d002/pt02">resolução</a>
+  </li>
+
+  <li>
+   desafio 02: verificador de idade<br>
+   <a href="desafios/d003/pt01">minha versão</a>
+   <a href="desafios/d003/pt02">resolução</a>
+  </li>
+
+  <li>
+   desafio 03: Contador de passos<br>
+   <a href="desafios/d004/pt01">minha versão</a>
+   <a href="desafios/d004/pt02">resolução</a>
+  </li>
+
+  <li>
+   desafio 04: Tabuada<br>
+   <a href="desafios/d005/pt01">minha versão</a>
+   <a href="desafios/d005/pt02">resolução</a>
+  </li>
+</ul>
