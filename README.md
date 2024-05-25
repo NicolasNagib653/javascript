@@ -40,22 +40,12 @@
   </li>
    
   <li>
-   Exercicio 06: sistema de multas<br>
+   Exercicio 08: sistema de multas<br>
    <a href="exercicios/aula11/ex010.html">acesse aqui</a>
   </li>
   
   <li>
-   Exercicio 06: Qual o seu país?<br>
-   <a href="exercicios/aula011/ex011.html">acesse aqui</a>
-  </li>
-  
-  <li>
-   Exercicio 06: Comando básicos <em>DOM</em><br>
-   <a href="exercicios/aula06/ex002.html">acesse aqui</a>
-  </li>
-  
-  <li>
-   Exercicio 06: Comando básicos <em>DOM</em><br>
-   <a href="exercicios/aula06/ex002.html">acesse aqui</a>
+   Exercicio 09: Qual o seu país?<br>
+   <a href="exercicios/aula11/ex011.html">acesse aqui</a>
   </li>
 </ul>
