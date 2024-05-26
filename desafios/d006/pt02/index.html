@@ -4,17 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>hora do dia</title>
+    <title>Analisador de números</title>
 </head>
 <body>
     <header>
-        <h1>titulo</h1>
+        <h1>Analisador de números</h1>
     </header>
     <section>
         <div>
-            testando...
+            Número (entre 1 e 100)
+            <input type="number" name="fnum" id="fnum">
+            <input type="button" value="Adicionar" onclick="adicionar()">
+            <br><br><select name="flista" id="flista" size="6"></select>
+            <br><input type="button" value="finalizar" onclick="finalizar()">
         </div>
-        <div>
+        <div id="res">
 
         </div>
     </section>
