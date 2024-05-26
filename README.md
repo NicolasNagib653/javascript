@@ -75,4 +75,10 @@
    <a href="desafios/d005/pt01">minha versão</a>
    <a href="desafios/d005/pt02">resolução</a>
   </li>
+
+  <li>
+   desafio 04: Analisador de números<br>
+   <a href="desafios/d006/pt01">minha versão</a>
+   <a href="desafios/d006/pt02">resolução</a>
+  </li>
 </ul>
