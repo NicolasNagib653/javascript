@@ -52,30 +52,30 @@
 
  - ***Desafio 02:*** verificador de idade
 
-   [Minha versão](desafios/d002/pt01/index.html)
+   [Minha versão](desafios/d003/pt01/index.html)
 
-   [Resolução](desafios/d002/pt02/index.html)
+   [Resolução](desafios/d003/pt02/index.html)
 
   &nbsp;
 
  - ***Desafio 03:*** Contador de passos
 
-   [Minha versão](desafios/d002/pt01/index.html)
+   [Minha versão](desafios/d004/pt01/index.html)
 
-   [Resolução](desafios/d002/pt02/index.html)
+   [Resolução](desafios/d004/pt02/index.html)
 
   &nbsp;
 
  - ***Desafio 04:*** Tabuada
 
-   [Minha versão](desafios/d002/pt01/index.html)
+   [Minha versão](desafios/d005/pt01/index.html)
 
-   [Resolução](desafios/d002/pt02/index.html)
+   [Resolução](desafios/d005/pt02/index.html)
 
   &nbsp;
 
  - ***Desafio 04:*** Analisador de números
 
-   [Minha versão](desafios/d002/pt01/index.html)
+   [Minha versão](desafios/d006/pt01/index.html)
 
-   [Resolução](desafios/d002/pt02/index.html)
+   [Resolução](desafios/d006/pt02/index.html)
